@@ -69,9 +69,10 @@ header .header-banner {
   overflow: hidden; }
 
 #gallery-section img {
-  transform: scale(1.2);
-  opacity: 1;
+  transform: scale(1.1);
+  opacity: 0.5;
   transition: opacity .5s, transform .5s; }
 
 #gallery-section a:hover img {
+  opacity: 1;
   transform: scale(1); }
