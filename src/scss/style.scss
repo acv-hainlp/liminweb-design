@@ -49,14 +49,14 @@ header {
         height: 100vh;
     }
     .slide-2 {
-        background-image: url("https://liminacademy.files.wordpress.com/2017/04/img_5820.jpg");
+        background-image: url(../img/slide-2.png);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
         height: 100vh;
     }
     .slide-3 {
-        background-image: url("https://liminacademy.files.wordpress.com/2017/04/img_5698.jpg");
+        background-image: url("../img/slide-3.png");
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -75,6 +75,10 @@ header {
 #service-section {
     a {
         text-decoration: none;
+
+        h6 {
+            margin-top: 5px;
+        }
     }
 
     img {
@@ -91,15 +95,19 @@ header {
 
 #gallery-section {
 
+    a {
+        overflow: hidden
+    }
+
     img {
+        transform: scale(1.2);
         opacity: 1;
         transition: opacity .5s, transform .5s;
     }
 
     a:hover {
         img {
-            transform: scale(0.9);
-            opacity: 0.5;
+            transform: scale(1);
         }
     }
 }
