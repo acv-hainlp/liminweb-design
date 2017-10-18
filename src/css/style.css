@@ -123,12 +123,6 @@ header .header-banner {
   #footer-section .w-100 {
     border-top: 1px solid black; }
 
-.js--wp-service {
-  opacity: 0; }
-
-.js--wp-service.animated {
-  opacity: 1; }
-
 img {
   opacity: 0; }
 
