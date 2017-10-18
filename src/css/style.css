@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat");
 .btn {
   border-radius: 0; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
 
 nav {
   background-color: #333; }
   nav .nav-link {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 14px;
@@ -53,9 +56,6 @@ header .header-banner {
   transform: translate(-50%, -50%);
   color: white; }
 
-#service-section p {
-  font-family: Montserrat; }
-
 #service-section a {
   text-decoration: none; }
   #service-section a h6 {
@@ -68,9 +68,6 @@ header .header-banner {
 #service-section a:hover img {
   transform: scale(0.9); }
 
-#gallery-section p {
-  font-family: Montserrat; }
-
 #gallery-section a {
   overflow: hidden; }
 
@@ -80,16 +77,6 @@ header .header-banner {
 
 #gallery-section a:hover img {
   transform: scale(1); }
-
-#team-section h5 {
-  font-weight: 800;
-  font-size: 100%; }
-
-#team-section h6 {
-  font-family: Merriweather; }
-
-#team-section img:hover {
-  opacity: .5; }
 
 #footer-section {
   background-color: #333; }
