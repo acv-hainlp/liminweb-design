@@ -12,6 +12,6 @@ $('.js--wp-gallery').waypoint(function(direction){
     offset: '50%'
 });
 
-// $("img").one("load", function() {
-//     $(this).addClass('animated fadeIn');
-// })
+// $("#gallery-section .img-fluid").each(function(index) {
+//     $(this).delay(100*index).fadeIn(300);
+// });

@@ -189,22 +189,12 @@ header {
 }
 
 .js--wp-gallery {
-    opacity: 0;
+    opacity: 0; 
+    // .img-fluid {
+    //     display: none;
+    // }
 }
 
 .js--wp-gallery.animated {
     opacity: 1;
 }
-
-img {
-    opacity: 1;
-    transition: opacity .5s;
-}
-
-// img {
-//     opacity: 0;
-// }
-
-// img.animated {
-//     opacity: 1;
-// }

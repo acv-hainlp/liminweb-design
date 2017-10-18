@@ -134,7 +134,3 @@ header .header-banner {
 
 .js--wp-gallery.animated {
   opacity: 1; }
-
-img {
-  opacity: 1;
-  transition: opacity .5s; }
