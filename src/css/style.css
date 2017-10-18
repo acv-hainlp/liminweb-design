@@ -128,3 +128,9 @@ header .header-banner {
 
 .js--wp-service.animated {
   opacity: 1; }
+
+img {
+  opacity: 0; }
+
+img.animated {
+  opacity: 1; }
