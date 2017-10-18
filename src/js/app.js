@@ -1,7 +1,7 @@
 $('.carousel-item').addClass('animated fadeIn');
 
 $('.js--wp-service').waypoint(function(direction){
-    $('.js--wp-service').addClass('animated fadeInUp')
+    $('.js--wp-service').addClass('animated fadeIn')
 }, {
     offset: '50%'
 });
