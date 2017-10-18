@@ -1,0 +1,11 @@
+{
+    "hosting": {
+      "public": "src",
+      "ignore": [
+        "firebase.json",
+        "src/scss",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  }
