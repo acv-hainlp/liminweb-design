@@ -53,6 +53,9 @@ header .header-banner {
   transform: translate(-50%, -50%);
   color: white; }
 
+#service-section p {
+  font-family: Montserrat; }
+
 #service-section a {
   text-decoration: none; }
   #service-section a h6 {
@@ -64,6 +67,9 @@ header .header-banner {
 
 #service-section a:hover img {
   transform: scale(0.9); }
+
+#gallery-section p {
+  font-family: Montserrat; }
 
 #gallery-section a {
   overflow: hidden; }
