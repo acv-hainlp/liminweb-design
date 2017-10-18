@@ -80,3 +80,25 @@ header .header-banner {
 
 #gallery-section a:hover img {
   transform: scale(1); }
+
+#team-section h5 {
+  font-weight: 800;
+  font-size: 100%; }
+
+#team-section h6 {
+  font-family: Merriweather; }
+
+#team-section img:hover {
+  opacity: .5; }
+
+.js--wp-service {
+  opacity: 0; }
+
+.js--wp-service.animated {
+  opacity: 1; }
+
+.js--wp-gallery {
+  opacity: 0; }
+
+.js--wp-gallery.animated {
+  opacity: 1; }
