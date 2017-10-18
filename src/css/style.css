@@ -26,22 +26,22 @@ header .dark-overlay {
   background-color: transparent; }
 
 header .slide-1 {
-  background-image: url("https://scontent.fhan1-1.fna.fbcdn.net/v/t31.0-8/22219592_852219848280739_7806608523464886737_o.jpg?oh=293cecf81a3b896677408f80640edbe5&oe=5A3A5C1D");
-  background-position: center;
+  background-image: url("../img/slide-1.png");
+  background-position: 75% 0%;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh; }
 
 header .slide-2 {
   background-image: url(../img/slide-2.png);
-  background-position: center;
+  background-position: 12% 0%;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh; }
 
 header .slide-3 {
   background-image: url("../img/slide-3.png");
-  background-position: center;
+  background-position: 60% 0%;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh; }
@@ -70,9 +70,7 @@ header .header-banner {
 
 #gallery-section img {
   transform: scale(1.1);
-  opacity: 0.5;
   transition: opacity .5s, transform .5s; }
 
 #gallery-section a:hover img {
-  opacity: 1;
   transform: scale(1); }
