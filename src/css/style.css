@@ -15,7 +15,7 @@ nav {
     letter-spacing: 1px;
     transition: color .5s; }
   nav .nav-item {
-    padding-right: 20px; }
+    padding-right: 10px; }
 
 header .carousel-inner {
   position: relative; }
