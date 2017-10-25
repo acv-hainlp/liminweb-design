@@ -2,18 +2,36 @@
 .btn {
   border-radius: 0; }
 
+a {
+  color: white;
+  text-decoration: none; }
+
+h2 {
+  text-transform: uppercase;
+  font-size: 170%; }
+
+p {
+  font-size: 80%;
+  line-height: 180%; }
+
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white; }
 
 nav {
-  background-color: #333; }
+  background-color: black;
+  border-bottom: 2px solid orange; }
   nav .nav-link {
+    color: white;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 1px;
     transition: color .5s; }
+  nav .nav-link:hover {
+    color: orange; }
   nav .nav-item {
     padding-right: 10px; }
 
@@ -56,27 +74,38 @@ header .header-banner {
   transform: translate(-50%, -50%);
   color: white; }
 
-#service-section a {
-  text-decoration: none; }
-  #service-section a h6 {
-    margin-top: 5px; }
+#service-section {
+  position: relative; }
+  #service-section .team-background {
+    background-image: url(../img/team-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .5; }
+  #service-section a {
+    text-decoration: none; }
+    #service-section a h6 {
+      margin-top: 5px; }
+  #service-section img {
+    opacity: 1;
+    transition: opacity .5s, transform .5s; }
+  #service-section a:hover img {
+    transform: scale(0.9); }
 
-#service-section img {
-  opacity: 1;
-  transition: opacity .5s, transform .5s; }
-
-#service-section a:hover img {
-  transform: scale(0.9); }
-
-#gallery-section a {
-  overflow: hidden; }
-
-#gallery-section img {
-  transform: scale(1.1);
-  transition: opacity .5s, transform .5s; }
-
-#gallery-section a:hover img {
-  transform: scale(1); }
+#gallery-section {
+  background-color: #23262d; }
+  #gallery-section .row a {
+    overflow: hidden;
+    height: 120px; }
+  #gallery-section img {
+    transform: scale(1.1);
+    transition: opacity .5s, transform .5s; }
+  #gallery-section a:hover img {
+    transform: scale(1); }
 
 #team-section {
   background-color: #e8e8e8; }

@@ -9,20 +9,43 @@
     border-radius: 0;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 170%;
+}
+
+p {
+    font-size: 80%;
+    line-height: 180%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
 }
 
 nav {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 90);
+    border-bottom: 2px solid orange;
     
     .nav-link {
+        color: white;
         font-weight: 500;
         text-transform: uppercase;
         font-size: 14px;
         line-height: 1.5;
         letter-spacing: 1px;
         transition: color .5s;
+    }
+
+    .nav-link:hover {
+        color:orange;
     }
 
     .nav-item {
@@ -76,6 +99,20 @@ header {
 }
 
 #service-section {
+    position: relative;
+    
+    .team-background {
+        background-image: url(../img/team-background.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: .5;
+    }
+
     a {
         text-decoration: none;
 
@@ -97,8 +134,17 @@ header {
 }
 
 #gallery-section {
-    a {
-        overflow: hidden
+    background-color: #23262d;
+    
+    .container {
+        // padding-top: 10rem;
+    }
+
+    .row {
+        a {
+            overflow: hidden;
+            height: 120px;
+        }
     }
 
     img {
