@@ -101,8 +101,7 @@ header .header-banner {
 #gallery-section {
   background-color: #23262d; }
   #gallery-section .row a {
-    overflow: hidden;
-    height: 120px; }
+    overflow: hidden; }
   #gallery-section img {
     transform: scale(1);
     transition: opacity .5s, transform .5s; }
