@@ -8,11 +8,13 @@ a {
 
 h2 {
   text-transform: uppercase;
-  font-size: 170%; }
+  font-size: 170%;
+  color: #e1e2e6; }
 
 p {
   font-size: 80%;
-  line-height: 180%; }
+  line-height: 180%;
+  color: #e1e2e6; }
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -102,16 +104,16 @@ header .header-banner {
     overflow: hidden;
     height: 120px; }
   #gallery-section img {
-    transform: scale(1.1);
+    transform: scale(1);
     transition: opacity .5s, transform .5s; }
   #gallery-section a:hover img {
-    transform: scale(1); }
+    transform: scale(1.1); }
 
 #team-section {
   background-color: #e8e8e8; }
 
 #footer-section {
-  background-color: #333; }
+  background-color: #23262d; }
   #footer-section a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
