@@ -111,7 +111,7 @@ header .header-banner {
 #team-section {
   background-color: #e8e8e8; }
 
-#contact-section .container {
+#contact-section .container-fluid {
   position: relative;
   padding: 0; }
 
