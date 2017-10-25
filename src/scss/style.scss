@@ -165,6 +165,28 @@ header {
 }
 
 #contact-section {
+
+    .container {
+        position: relative;
+        padding:0;
+    }
+
+    img {
+        position: relative;
+        z-index: 999;
+    }
+
+    .background {
+        position: absolute;
+        top: 50%;
+        bottom: 0;
+        background-image: url(../img/team-background.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 70%;
+        transform: translate(0,-50%);
+        z-index: 0;
+    }
 }
 
 #footer-section {

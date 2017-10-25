@@ -111,6 +111,25 @@ header .header-banner {
 #team-section {
   background-color: #e8e8e8; }
 
+#contact-section .container {
+  position: relative;
+  padding: 0; }
+
+#contact-section img {
+  position: relative;
+  z-index: 999; }
+
+#contact-section .background {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  background-image: url(../img/team-background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 70%;
+  transform: translate(0, -50%);
+  z-index: 0; }
+
 #footer-section {
   background-color: #23262d; }
   #footer-section a {
