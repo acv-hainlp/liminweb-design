@@ -197,11 +197,12 @@ header {
             font-size: 500%;
             padding: 2rem;
             margin-top: 2rem;
-            transition: color .5s ease;
+            transition: color .5s ease, font-size .3s;
         }
 
         i:hover {
             color: orange;
+            font-size: 520%;
         }
 
         p {

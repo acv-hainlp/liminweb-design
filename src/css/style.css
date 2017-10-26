@@ -133,9 +133,10 @@ header .header-banner {
     font-size: 500%;
     padding: 2rem;
     margin-top: 2rem;
-    transition: color .5s ease; }
+    transition: color .5s ease, font-size .3s; }
   #team-section .row i:hover {
-    color: orange; }
+    color: orange;
+    font-size: 520%; }
   #team-section .row p {
     margin-top: 1rem; }
 
