@@ -159,6 +159,10 @@ header .header-banner {
   #contact-section i {
     width: 20px;
     height: 20px; }
+  #contact-section .blockquote {
+    opacity: .6; }
+  #contact-section .blockquote-footer {
+    text-transform: uppercase; }
 
 #footer-section {
   background-color: #23262d;

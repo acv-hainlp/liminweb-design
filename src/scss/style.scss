@@ -238,6 +238,14 @@ header {
         width: 20px;
         height: 20px;
     }
+
+    .blockquote {
+        opacity: .6;
+    }
+
+    .blockquote-footer {
+        text-transform: uppercase;
+    }
 }
 
 #footer-section {
