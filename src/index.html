@@ -13,11 +13,12 @@
 </head>
 
 <body id="home">
-    <nav class="navbar navbar-expand-md  fixed-top py-2">
+    <nav class="navbar navbar-expand-md fixed-top py-2">
         <div class="container">
             <a href="index.html" class="navbar-brand">Limin Studio</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler " data-toggle="collapse" data-target="#navbarNav">
+                <!-- <span class="navbar-toggler-icon " ></span> -->
+                <i class="fa fa-bars text-white" aria-hidden="true"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
@@ -28,13 +29,10 @@
                         <a href="#service-section" class="nav-link">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#team-section" class="nav-link">About Us</a>
-                    </li>
-                    <li class="nav-item">
                         <a href="#gallery-section" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#plan-section" class="nav-link">Plan</a>
+                        <a href="#team-section" class="nav-link">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact-section" class="nav-link">Contact</a>
@@ -73,20 +71,44 @@
         </div>
     </header>
 
-
     <section id="service-section">
         <div class="team-background"></div>
         <div class="container pt-5">
             <div class="row mt-5 js--wp-service">
-                <div class="col-sm-6">
+                <div class="col-sm-6 d-none d-md-block">
                     <img class="img-fluid" src="img/about-us.png" alt="">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 text-center text-md-left">
                     <h2 class="pt-3 pb-4">OUR SERVICE</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <div class="row">
+                    <p>Finding a partner for game visual design is never easy, hiring the whole team is definitely more difficult.
+                        We will help you make it easier. Our professional and hard-working team surely provide you good services
+                        with best quality guaranteed. Cooperate with us will save your resources, also expenses for game
+                        production and operation.
+                    </p>
+                    <div class="row py-5 text-center">
                         <div class="col-sm-3">
-                            
+                            <a>
+                                <img class="img-fluid rounded-circle" src="img/character-product.jpg" alt="">
+                                <p>Character Design</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="">
+                                <img class="img-fluid rounded-circle" src="img/item-product.jpg" alt="">
+                                <p>Item Design</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="">
+                                <img class="img-fluid rounded-circle" src="img/ui-product.jpg" alt="">
+                                <p>UX/UI Design</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="">
+                                <img class="img-fluid rounded-circle" src="img/edu-product.jpg" alt="">
+                                <p>Education</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -94,11 +116,6 @@
         </div>
     </section>
 
-    <section id="team-section">
-        <div class="container">
-           
-        </div>
-    </section>
     <section id="gallery-section">
         <div class="container py-5">
             <div class="text-center py-5">
@@ -151,56 +168,78 @@
         </div>
     </section>
 
-    <section id="plan-section">
-        <div class="container py-5">
-            
+    <section id="team-section" class="py-5">
+        <div class="team-background"></div>
+        <div class="container py-5 ">
+            <div class="text-center py-5">
+                <h2>ABOUT US</h2>
+                <p>Limin Studio, which based in Vietnam, focused on graphic and character design for game. Our team was established
+                    on September 2016, with experienced members in mobile game visual design, for both Japanese and Vietnamese
+                    market. We believe that games could help creating a fascinating world and sharing interest in games can
+                    bring people from all around the world closer to each other. Benefits when work with us:
+                </p>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p>Save labour expenses</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <i class="fa fa-pie-chart" aria-hidden="true"></i>
+                        <p>Save budget for project managing</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <i class="fa fa-usd" aria-hidden="true"></i>
+                        <p>Pay per order only</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <i class="fa fa-line-chart" aria-hidden="true"></i>
+                        <p>Help manage workforce properly for other products</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="contact-section">
-        <div class="container-fluid ">
-            <img class="img-fluid" src="img/about-us.png" alt="">
-            <div class="background"></div>
+    <section id="contact-section" class="py-5">
+        <div class="contact-background"></div>
+        <div class="container py-5">
+            <div class="col-sm-6">
+                <div class="card pb-3">
+                    <img class="card-img-top" src="https://liminacademy.files.wordpress.com/2017/04/19620935_805531016282956_976088995967424307_o.jpg"
+                        alt="liminstudio">
+                    <div class="card-body">
+                        <h2 class="card-title text-warning">
+                            Contact Information
+                        </h2>
+                        <h6 class="card-subtitle mb-2 text-muted">Limin Studio Hanoi</h6>
+                        <p class="card-text">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> Address: 23 Nguyen Du, Hanoi
+                            <br>
+                            <i class="fa fa-mobile" aria-hidden="true"></i> Hotline: +84 936 208 891
+                            <br>
+                            <i class="fa fa-envelope" aria-hidden="true"></i> Email: info@liminstudio.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                   
+            </div>
         </div>
     </section>
 
     <footer id="footer-section">
-        <div class="container py-5 text-white">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h3>Limin Studio</h3>
-                    <div class="d-flex justify-content-start">
-                        <a href="https://www.facebook.com/liminstudio" target="blank">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.behance.net/liminstudio" target="blank">
-                            <i class="fa fa-behance" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-2 mt-3 mt-sm-0">
-                    <h6>Our Services</h6>
-                    <a href="#">Character</a>
-                    <a href="#">Item & Weapon</a>
-                    <a href="#">UX/UI</a>
-                </div>
-                <div class="col-sm-2 mt-3 mt-sm-0">
-                    <h6>Quick Links</h6>
-                    <a href="#">About Us</a>
-                    <a href="#">Plan</a>
-                </div>
-                <div class="col-sm-4 mt-3 mt-sm-0">
-                    <h6>Connect With Us</h6>
-                    <p>A: 14 L.E Goulburn St, Berlin 2000Wm</p>
-                    <p>P: (+88) 1990 6886</p>
-                    <p>E: contact@9studio.com</p>
-                </div>
-            </div>
-            <div class="w-100 mt-3 mt-sm-5 py-3 text-center">
-                <p>
-                    Copyright © 2017 Limin Studio - All Rights Reserved.
-                </p>
-            </div>
+        <div class="container py-5 text-center">
+            <p>
+                Copyright © 2017 Limin Studio - All Rights Reserved.
+            </p>
+            <a href="https://www.facebook.com/liminstudio" target="blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.behance.net/liminstudio" target="blank">
+                <i class="fa fa-behance" aria-hidden="true"></i>
+            </a>
+        </div>
         </div>
     </footer>
 

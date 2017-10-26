@@ -35,7 +35,11 @@ body {
 nav {
     background-color: rgba(0, 0, 0, 90);
     border-bottom: 2px solid orange;
-    
+  
+    .navbar-brand {
+        color: rgb(255, 217, 152);
+    }
+
     .nav-link {
         color: white;
         font-weight: 500;
@@ -123,6 +127,12 @@ header {
         }
     }
 
+    .col-sm-3 {
+        p {
+            margin-top: .8rem;
+        }
+    }
+
     img {
         opacity: 1;
         transition: opacity .5s, transform .5s;
@@ -161,42 +171,81 @@ header {
 }
 
 #team-section {
-    background-color: #e8e8e8;
+    position: relative;
+
+    .inner-border {
+        border: 10px solid black;
+        box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255, 0.8);
+        box-sizing: border-box;
+    }
+
+    .team-background {
+        background-image: url("https://liminacademy.files.wordpress.com/2017/04/img_5888-e1503384614259.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: .2;
+    }
+
+    .row {
+        i {
+            font-size: 500%;
+            padding: 2rem;
+            margin-top: 2rem;
+            transition: color .5s ease;
+        }
+
+        i:hover {
+            color: orange;
+        }
+
+        p {
+            margin-top: 1rem;
+        }
+    }
 }
 
 #contact-section {
+    position: relative;
 
-    .container-fluid {
-        position: relative;
-        padding:0;
-    }
-
-    img {
-        position: relative;
-        z-index: 999;
-    }
-
-    .background {
+    .contact-background {
         position: absolute;
-        top: 50%;
-        bottom: 0;
-        background-image: url(../img/team-background.jpg);
+        background-image: url(../img/contact-background.png);
+        background-position: center;
         background-size: cover;
+        top:0;
+        left: 0;
         width: 100%;
-        height: 70%;
-        transform: translate(0,-50%);
-        z-index: 0;
+        height: 100%;
+        opacity: .5;
+    }
+
+    .card {
+        border-radius: 0;
+        border: 0;
+    }
+
+    .card-text {
+        color: black;
+    }
+
+    i {
+        width: 20px;
+        height: 20px;
     }
 }
 
 #footer-section {
     background-color: #23262d;
+    border-top: 2px solid black;
     a {
-        text-decoration: none;
         color: rgba(255, 255, 255, 0.5);
         transition: color .5s;
-        display: block;
-        margin: .5em 0;
         font-size: 90%;
 
         .fa {
@@ -217,20 +266,6 @@ header {
         .fa {
             border: 1px solid orange;
         }
-    }
-
-    h6 {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-        padding-bottom: 10px;
-    }
-
-    p {
-        font-size: 90%;
-        color: rgba(255, 255, 255, 0.5);
-    }
-
-    .w-100 {
-        border-top: 1px solid black;
     }
 }
 
