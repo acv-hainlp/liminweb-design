@@ -87,25 +87,25 @@
                     </p>
                     <div class="row py-5 text-center">
                         <div class="col-sm-3">
-                            <a>
+                            <a data-toggle="modal" data-target="#character-modal">
                                 <img class="img-fluid rounded-circle" src="img/character-product.jpg" alt="">
                                 <p>Character Design</p>
                             </a>
                         </div>
                         <div class="col-sm-3">
-                            <a href="">
+                            <a data-toggle="modal" data-target="#item-modal">
                                 <img class="img-fluid rounded-circle" src="img/item-product.jpg" alt="">
                                 <p>Item Design</p>
                             </a>
                         </div>
                         <div class="col-sm-3">
-                            <a href="">
+                            <a data-toggle="modal" data-target="#ui-modal">
                                 <img class="img-fluid rounded-circle" src="img/ui-product.jpg" alt="">
                                 <p>UX/UI Design</p>
                             </a>
                         </div>
                         <div class="col-sm-3">
-                            <a href="">
+                            <a data-toggle="modal" data-target="#edu-modal">
                                 <img class="img-fluid rounded-circle" src="img/edu-product.jpg" alt="">
                                 <p>Education</p>
                             </a>
@@ -172,7 +172,7 @@
         <div class="team-background"></div>
         <div class="container py-5 ">
             <div class="text-center py-5">
-                <h2>ABOUT US</h2>
+                <h2 class="mb-3">ABOUT US</h2>
                 <p>Limin Studio, which based in Vietnam, focused on graphic and character design for game. Our team was established
                     on September 2016, with experienced members in mobile game visual design, for both Japanese and Vietnamese
                     market. We believe that games could help creating a fascinating world and sharing interest in games can
@@ -204,29 +204,26 @@
         <div class="contact-background"></div>
         <div class="container py-5">
             <div class="row">
-                    <div class="col-sm-7 mb-5">
-                            <blockquote class="blockquote text-center text-sm-right">
-                                <p class="mb-2">
-                                    If you want to go fast, go alone 
-                                    If you want to go far, go together. 
-                                </p>
-                                <footer class="blockquote-footer">AFRICAN PROVERB</footer>
-                            </blockquote>
-                            <blockquote class="blockquote text-center text-sm-right">
-                                    <p class="mb-2">
-                                            All children are artists. 
-                                            The problem is how to remain an artist once he grows up. 
-                                    </p>
-                                    <footer class="blockquote-footer">Pablo Picasso</footer>
-                            </blockquote>
-                            <blockquote class="blockquote text-center text-sm-right">
-                                    <p class="mb-2">
-                                            The only way to do great work is to love what you do.
-                                            If you haven't found it yet, keep looking. Don't settle. 
-                                    </p>
-                                    <footer class="blockquote-footer">Steve Jobs</footer>
-                            </blockquote>
-                        </div>
+                <div class="col-sm-7 mb-5">
+                    <blockquote class="blockquote text-center text-sm-right">
+                        <p class="mb-2">
+                            If you want to go fast, go alone If you want to go far, go together.
+                        </p>
+                        <footer class="blockquote-footer">AFRICAN PROVERB</footer>
+                    </blockquote>
+                    <blockquote class="blockquote text-center text-sm-right">
+                        <p class="mb-2">
+                            All children are artists. The problem is how to remain an artist once he grows up.
+                        </p>
+                        <footer class="blockquote-footer">Pablo Picasso</footer>
+                    </blockquote>
+                    <blockquote class="blockquote text-center text-sm-right">
+                        <p class="mb-2">
+                            The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.
+                        </p>
+                        <footer class="blockquote-footer">Steve Jobs</footer>
+                    </blockquote>
+                </div>
                 <div class="col-sm-5">
                     <div class="card pb-3">
                         <img class="card-img-top" src="https://liminacademy.files.wordpress.com/2017/04/19620935_805531016282956_976088995967424307_o.jpg"
@@ -264,6 +261,60 @@
         </div>
         </div>
     </footer>
+
+    <!-- Modal Section     -->
+    <div id="character-modal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark">
+                <div class="modal-body">
+                    We provide game character designing services at the request of the customers. Our artists can draw in different styles, from
+                    manga/anime to semi-realistic, with various themes such as Japanese, Korean, Chinese, etc.
+                </div>
+                <button class="btn btn-warning text-white" data-dismiss="modal">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="item-modal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark">
+                <div class="modal-body">
+                    Designing Items and Weapons has always been a tough and time-consuming job. We will help you cutting down working volume
+                    so that your workforce can focus on developing other projects.
+                </div>
+                <button class="btn btn-warning text-white" data-dismiss="modal">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="ui-modal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark">
+                <div class="modal-body">
+                    UI or User Interface, as its name would suggest, is definitely the most important factor of a game product. Since users spend
+                    most of their time interact with the UI, attractive UI certainly bring excellent experiences. We have
+                    specialists in developing User Interface.
+                </div>
+                <button class="btn btn-warning text-white" data-dismiss="modal">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="edu-modal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark">
+                <div class="modal-body">
+                    Limin Studio has an digital art education center in Hanoi. We has organized many courses that attract numberous young talents.
+                    Until now, we have been training more than 100 students. As a result, our labour resources are abundant
+                    and plentiful.
+                </div>
+                <button class="btn btn-warning text-white" data-dismiss="modal">Back</button>
+            </div>
+        </div>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
