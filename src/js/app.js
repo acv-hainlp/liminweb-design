@@ -15,3 +15,11 @@ $('.js--wp-gallery').waypoint(function(direction){
 // $("#gallery-section .img-fluid").each(function(index) {
 //     $(this).delay(100*index).fadeIn(300);
 // });
+
+// $('.dropdown').hover(function() {
+//     $('.dropdown').addClass('show');
+//     $('.dropdown-menu').addClass('show');
+// }, function() {
+//     $('.dropdown').removeClass('show')
+//     $('.dropdown-menu').removeClass('show');
+// });
