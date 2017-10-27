@@ -158,7 +158,9 @@ header .header-banner {
     color: black; }
   #contact-section i {
     width: 20px;
-    height: 20px; }
+    height: 20px;
+    text-align: center;
+    margin-right: 10px; }
   #contact-section .blockquote {
     opacity: .6; }
   #contact-section .blockquote-footer {
